@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 43100376}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.328, y: 0.21, z: 0.061}
+  m_LocalPosition: {x: -0.0095, y: 0.0785, z: 0.0081}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -205,8 +205,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_ShowInteractableHoverMeshes: 1
-  m_InteractableHoverMeshMaterial: {fileID: 0}
-  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_InteractableHoverMeshMaterial: {fileID: 2100000, guid: 5750f18e988befc4f9a61a61a7da484a,
+    type: 2}
+  m_InteractableCantHoverMeshMaterial: {fileID: 2100000, guid: 5750f18e988befc4f9a61a61a7da484a,
+    type: 2}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
@@ -230,12 +232,12 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.16542548
-  m_Center: {x: 0.33457452, y: 0, z: 0}
+  m_Radius: 0.054200992
+  m_Center: {x: -0.0095, y: 0.0785, z: 0.0081}
 --- !u!1001 &59308716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4205,7 +4207,7 @@ Transform:
   m_GameObject: {fileID: 712900736}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.054, y: -0.293, z: 0.037}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
